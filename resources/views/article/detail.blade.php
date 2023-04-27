@@ -22,7 +22,7 @@
                     <a href="{{ route('user.articles', ['user' => $article->user->id]) }}"
                         class="d-flex justify-content-end text-decoration-none text-dark mb-3 text-center">
                         <h6 class="rounded-pill p-2 px-3 box-shadow-pink text-decoration-none mx-3 author">
-                            
+                            Autore:
                             {{ $article->user->name }}</h6>
                     </a>
                 </div>
